@@ -6,10 +6,12 @@ import blob from './../../assets/blob (1) 1.svg'
 const Banner = () => {
     return (
         <div>
-            <div className='text-[#6A70FC] w-[461px] h-[278px] rotate-[-180°] fixed -mt-10'>
-                <img src={vector} alt="" />
+            <div className='relative'>
+                <div className='text-[#6A70FC] w-[461px] h-[278px] rotate-[-180°] absolute left-0 top-0'>
+                    <img src={vector} alt="" />
+                </div>
             </div>
-            <div className="hero pt-[140px] pb-[90px]">
+            <div className="hero py-[160px]">
                 <div className="hero-content text-center">
                     <div className="">
                         <h1 className="text-5xl">Don't let nerves get the best of you – <br />
@@ -20,11 +22,14 @@ const Banner = () => {
                         <button className="button-join normal-case text-2xl text-white mb-3 bg-[#000AFF]">Join our Program</button>
                         <p className='text-2xl'>Already a memeber? <Link to='/login'><span className='font-semibold underline'>Login</span></Link></p>
                     </div>
-                    
+
                 </div>
             </div>
 
-            <div>
+            <div className='relative'>
+            <div className='absolute right-0 bottom-0'>
+                    <img src={blob} alt="" />
+                </div>
             </div>
 
         </div>
