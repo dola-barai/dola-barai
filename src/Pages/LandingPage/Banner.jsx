@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './LandingPage.css'
 import vector from './../../assets/Vector.svg'
-import vector1 from './../../assets/Vector1.svg'
+
 import blob from './../../assets/blob (1) 1.svg'
 const Banner = () => {
     return (
