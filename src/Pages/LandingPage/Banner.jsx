@@ -20,7 +20,7 @@ const Banner = () => {
                             fresh graduate, career changer, or seasoned professional, we've got you covered. Our
                             <span className="font-semibold"> comprehensive library</span> of mock interview questions and <span className="font-semibold">expert tips</span> will help you <span className="font-semibold">ace any job interview.</span> </p>
                         <button className="button-join normal-case text-2xl text-white mb-3 bg-[#000AFF]">Join our Program</button>
-                        <p className='text-xl mb-6'><span className="text-[#616161]">Already a memeber? </span><Link to='/login'><span className='font-semibold text-black underline'>Login</span></Link></p>
+                        <p className='text-2xl mb-6'><span className="text-[#616161]">Already a memeber? </span><Link to='/login'><span className='font-semibold text-black underline'>Login</span></Link></p>
                     </div>
 
                 </div>
