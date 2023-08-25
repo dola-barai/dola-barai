@@ -1,3 +1,4 @@
+import Banner from './Banner';
 import './LandingPage.css'
 
 const LandingPage = () => {
@@ -5,7 +6,7 @@ const LandingPage = () => {
         <div>
             <div className="navbar md:px-16 md:pt-4">
                 <div className="flex-1">
-                    <h1 className="md:text-4xl font-bold head">Lean<span className="text-[#000AFF]">Prep</span></h1>
+                    <h1 className="md:text-4xl font-bold poppins-font">Lean<span className="text-[#000AFF]">Prep</span></h1>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal px-1">
@@ -17,6 +18,7 @@ const LandingPage = () => {
                     </ul>
                 </div>
             </div>
+            <Banner></Banner>
         </div>
     );
 };
